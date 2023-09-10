@@ -1,16 +1,15 @@
 #include <stdio.h>
-/* betty style doc for function main goes there */
 /**
- * main - this is the main function
+ * main - main function
+ *
  * Return: 0
  */
-
 int main(void)
 {
 	int i = '0';
 	int j = '0';
 
-	while  (j <= '9')
+	while (i <= '9')
 	{
 		while (j <= '9')
 		{
@@ -23,8 +22,11 @@ int main(void)
 					putchar('\n');
 				}
 				else
+				{
 					putchar(',');
-				putchar(' ');
+					putchar(' ');
+
+				}
 			}
 			j++;
 		}
