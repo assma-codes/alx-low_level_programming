@@ -1,17 +1,20 @@
 #include "main.h"
+/* betty style doc for function main goes there */
 /**
- * main - this is the main function call _putchar 
- * return : 0
+ * main - this is the main function
+ * Return: 0
  */
+
 int main(void)
 {
-	-Putchar('_');
-	-Putchar('p');
-	-Putchar('u');
-	-Putchar('t');
-	-Putchar('c');
-	-Putchar('h');
-	-Putchar('a');
-	-Putchar('r');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
