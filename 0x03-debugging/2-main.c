@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* main - prints the largest of 3 integers
+* main - prints the largest of 3 integer numbers
 * Return: 0
 */
 
