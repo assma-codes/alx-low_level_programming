@@ -4,6 +4,7 @@
 /**
  * print_numbers - print numbers seperated by comma
  * @n: number of intigers
+ * @separator: comma between numbers
  * Return: no return
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
