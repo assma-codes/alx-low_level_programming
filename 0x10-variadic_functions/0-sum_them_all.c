@@ -1,13 +1,11 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
-
 /**
- * sum_them_al - variadic function has n number of arguments
- * @n: number of arguments
- * Return: sumation
+ * sum_them_all - Entry Point
+ * @n: variadic inputs
+ * Return: sumation of all args with n numbers
  */
-
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list ptr;
