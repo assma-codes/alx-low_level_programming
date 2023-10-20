@@ -1,9 +1,8 @@
 #include "lists.h"
 
 /**
- * size_t print_list - function prints all elements of list_t
- * @str: string to be printed
- * @len: length of string
+ * print_list - function prints all elements of list_t
+ * @h: points to the first node
  * Return: number of nodes
  */
 
