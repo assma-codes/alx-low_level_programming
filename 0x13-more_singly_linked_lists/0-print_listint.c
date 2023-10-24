@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * size_t print_listint - function prints elements of singe list
+ * print_listint - function prints elements of singe list
  * @h: pointer of the first node
  * Return: Number of nodes in the list
  *
