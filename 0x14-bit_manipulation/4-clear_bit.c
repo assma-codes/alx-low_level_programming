@@ -9,6 +9,6 @@
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int tester = ~(1UL << index);
-	*n = *n & tester;
+	*n &= tester;
 	return (*n);
 }
