@@ -9,10 +9,12 @@
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int tester = ~(1UL << index);
-	*n &= tester;
 	if (! *n || index > 64)
 		return (-1);
-	else
+	if ((*n >> index) & 1)
+	{
+		*n &= tester;
 		return (1);
+	}
 	return (*n);
 }
