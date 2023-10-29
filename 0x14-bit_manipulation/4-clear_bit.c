@@ -10,7 +10,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int tester = ~(1UL << index);
 
-	if (!*n || index > 64)
+	if (!*n || (index >= sizeof(unsigned long int) * 8))
 		return (-1);
 	while (*n && index < 64)
 	{
