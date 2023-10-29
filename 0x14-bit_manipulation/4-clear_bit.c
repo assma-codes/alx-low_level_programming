@@ -12,7 +12,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 
 	if (!*n || index > 64)
 		return (-1);
-	else
+	while (*n && index < 64)
 	{
 		*n &= tester;
 		return (1);
